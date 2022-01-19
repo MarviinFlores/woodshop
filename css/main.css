@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Kaisei+Decol:wght@400;500;700&family=Poppins:ital,wght@0,300;1,300;1,400&display=swap');
+:root {
+    --lg--font:'Kaisei-Kotumin', serif;
+    --sm--font:'Poppins',sans-serif;
+}
