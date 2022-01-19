@@ -2,4 +2,17 @@
 :root {
     --lg--font:'Kaisei-Kotumin', serif;
     --sm--font:'Poppins',sans-serif;
+    --pink :#e5345b;
+}
+
+
+body{
+	font-family : var(--sm-font);
+
+}
+
+	/*button*/
+.bg-primary {
+	background-color: var(--pink)!important;
+
 }
