@@ -15,13 +15,13 @@
 </head>
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top ">
     <div class ="container">
-	    <a class = "nvabar-brand" href="index.html">
+	    <a class = "nvabar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
 		<img src ="images/shopping-bag-icon.png" alt ="site icon">
 		<span class ="text-uppercase fw-lighter ms-2">WoodWrkShop</span>
 	    </a>
-	    <div class="">
+	    <div class="order-lg-2 ">
 	
 		    <button type = "button" class = "btn position-relative">
 			    <i class = "fa fa-cart-arrow-down"></i>
@@ -41,30 +41,30 @@
 	    <button class ="navbar-toggler border-0" type= "button" data-bs-toggle ="collapse"   data-bs-target = "#navMenu" > 
 		    <span class="navbar-toggler-icon"></span>
 	    </button>	    
-	    <div class ="collapse navbar-collapse" id = "navMenu" >
+	    <div class ="collapse navbar-collapse order-lg-1" id = "navMenu" >
 		    <ul class ="navbar-nav mx-auto text-center">
-			   <li class = nav-item">
-			    <a class ="nav-link" href="#header">home</a>
+			   <li class = "nav-item  px-2 py-2" >
+			    <a class ="nav-link text-uppercase text-dark" href="#header">home</a>
 		    
 			   </li>
- <li class = nav-item">
-			    <a class ="nav-link" href="#catalogo">catalogo</a>
+ <li class =" nav-item  px-2 py-2">
+			    <a class ="nav-link text-uppercase text-dark " href="#catalogo">catalogo</a>
 		    
 			   </li>
- <li class = nav-item">
-			    <a class ="nav-link" href="#ofertas">ofertas</a>
+ <li class = "nav-item   px-2 py-2">
+			    <a class ="nav-link text-uppercase text-dark" href="#ofertas">ofertas</a>
 		    
 			   </li>
-   <li class = nav-item">
-			    <a class ="nav-link" href="#clientes">clientes</a>
+   <li class = "nav-item px-2 py-2">
+			    <a class ="nav-link text-uppercase text-dark " href="#clientes">clientes</a>
 		    
 			   </li>
-<li class = nav-item">
-			    <a class ="nav-link" href="#nosotros">nosotros</a>
+<li class =" nav-item  px-2 py-2">
+			    <a class ="nav-link text-uppercase text-dark" href="#nosotros">nosotros</a>
 		    
 			   </li>
-<li class = nav-item">
-			    <a class ="nav-link" href="#populares">populares</a>
+<li class =" nav-item  px-2 py-2 border-0 ">
+			    <a class ="nav-link text-uppercase text-dark " href="#populares">populares</a>
 		    
 			   </li>
 
@@ -73,8 +73,23 @@
 	    </div>
 	    
     </div>
-
+    </nav>
     <!--end navbar-->
+
+<!-- header -->
+<header id = "header" class = "vh-100" style ="padding-top:14px;">
+	<div class = "container">
+		<div class= "">
+			<h2 class = "text-capitalize text-white">mas buscados</h2>
+		</div>
+	</div>
+
+</header>
+<!--- end of header-->	
+
+
+
+
     <!--jquery-->
     <script src="js/jquery-3.6.0.js"></script>
     <!--bootstrap js-->
