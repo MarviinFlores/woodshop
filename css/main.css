@@ -31,6 +31,10 @@ body{
 	color:#fff;
 	border-color: var(--pink);
 }
+/* text color*/
+.text-primary {
+		color:var(--pink)!important;
+}
 
 /* navbar*/ 
       .navbar{
@@ -91,4 +95,10 @@ body{
 	color:#fff!important;
 	border-color:var(--pink)!important;
 }
-
+.collection-img span{
+	top:20px;
+	right:20px;
+	width:46px;
+	height: 46px;
+	border-radius:50%;
+}
