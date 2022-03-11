@@ -124,3 +124,26 @@ body{
 .special-img:hover img{
 	transform: scale(1.2);
 }
+
+#offers {
+
+background : url(../images/workshop.jpg) center  no-repeat;
+
+}
+
+#offers .row {
+	min-heigth:60vh;
+}
+
+.offers-content span{
+	font-size:28px;
+
+}
+.offers-content h2 {
+	font-size: 60px;
+	font-family:var(--lg-font);
+}
+
+.offers-content .btn {
+	border-color : transparent!important;
+}
