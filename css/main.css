@@ -61,7 +61,7 @@ body{
 /* header */
 
 #header {
-	background : url(../images/woodw8.jpg)top/cover no-repeat ;
+	background : url(../images/woodw8L.jpg)top/cover no-repeat ;
 }
 
 .carousel-inner h1{
@@ -127,7 +127,7 @@ body{
 
 #offers {
 
-background : url(../images/workshop.jpg) center  no-repeat;
+background : url(../images/shoppingPcL.jpg) center  no-repeat;
 
 }
 
@@ -145,5 +145,5 @@ background : url(../images/workshop.jpg) center  no-repeat;
 }
 
 .offers-content .btn {
-	border-color : transparent!important;
-}
+		border-color : transparent!important;
+	}
