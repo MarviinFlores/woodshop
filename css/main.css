@@ -109,6 +109,24 @@ body{
 }
 
 /*  especiales */
+/* BOTON DE WHASSAP*/
+
+.btn-wsp {
+	position :fixed;
+	width : 42px;
+	height : 42px;
+	line-height : 55px;
+	bottom:20px;
+	right:5px;
+	font-size:30px;
+	background :#0df053;
+	color :#fff;
+	border-radius:50px;
+	text-align : center;
+        font-size:40px;
+	box-shadow:0px 1px 10px rgba(0,0,0,0.3);
+	z-index: 100;
+	}
 
 .special-img span {
 	top:20px;
@@ -139,11 +157,64 @@ background : url(../images/shoppingPcL.jpg) center  no-repeat;
 	font-size:28px;
 
 }
-.offers-content h2 {
-	font-size: 60px;
+		.offers-content h2 {
+		font-size: 60px;
 	font-family:var(--lg-font);
 }
 
 .offers-content .btn {
 		border-color : transparent!important;
+	}
+/* end about*/	
+
+	/* suscriptor*/
+	#suscriptor {
+		background-color: rgba(179,179,179,0.05);
+	}
+	#suscriptor p {
+			max-width: 600px;
+	}
+
+	#suscriptor .input-group{
+		max-width : 500px;
+	}
+	#suscriptor .form-control {
+			border-top-left-radius : 25px;
+			border-bottom-left-radius : 25px;
+
+	}
+
+	#suscriptor .btn{
+		background-color:var(--pink);
+		color :#fff;
+		border-color:var(--pink);
+	}
+	#suscriptor .btn-hover{
+		background-color:#000;
+		border-color:#000;
+	}
+/* end suscriptor*/
+
+	/* footer*/
+	footer .brand {
+		font-family: var (--lg-font);
+		letter-spacing: 2px;
+
+	}
+	footer a {
+		-webkit-transition: color 0.3s ease;
+		-o-transition: color 0.3s ease;
+		transition: color 0.3s ease;
+	}
+	footer a:hover {
+		color :var (--pink)!important;
+	}
+	
+	/* end footer*/
+/* media queries*/
+	@media(min-width: 992px){
+	
+		.nav-item {
+		border-bottom :none;	
+		}
 	}
