@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Kaisei+Decol:wght@400;500;700&family=Poppins:ital,wght@0,300;1,300;1,400&display=swap');
+:root {
+    --lg--font:'Kaisei-Kotumin', serif;
+    --sm--font:'Poppins',sans-serif;
+    --pink :#e5345b;
+}
+
+
+body{
+	font-family : var(--sm-font);
+
+}
+
+	/*button*/
+.bg-primary {
+	background-color: var(--pink)!important;
+
+}
+
+.btn:not(.nav-btns button){
+
+	background-color:#fff;
+	color:rgb(85,85,85);
+	padding:10px 28px;
+	border-radius:25px;
+	border:1px solid rgb(85,85,85);
+}
+
+.btn:not(.nav-btns button):hover{
+	background-color:var(--pink);
+	color:#fff;
+	border-color: var(--pink);
+}
+/* text color*/
+.text-primary {
+		color:var(--pink)!important;
+}
+
+/* navbar*/ 
+      .navbar{
+       /*-webkit-box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);*/
+	box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+     }
+.navbar-brand img{
+	width:30px;
+}
+
+.navbar-brand span{
+	letter-spacing:2px,
+	font-family:var(--lg-font);
+}
+
+.nav-link:hover{
+	color:var(--pink)!important;
+}
+
+.nav-item{
+	border-bottom:0.5px solid rgba(0,0,0,0.05);
+}
+
+/* header */
+
+#header {
+	background : url(../images/woodw8L.jpg)top/cover no-repeat ;
+}
+
+.carousel-inner h1{
+	font-size:60px;
+	font-family:var(--lg-font);
+}
+
+.carousel-item .btn{
+	border-color:#fff!important
+}
+
+.carousel-item .btn:hover{
+	border-color:var(--pink)!important;
+}
+
+/* titulo*/
+
+.title h2::before{
+	position:absolute;
+	content:"";
+	width:4px;
+	height:50px;
+	background-color:var(--pink);
+	left:-20px;
+	top:50%;
+	transform:translateY(-50%);
+}
+/* colecciones*/
+
+.active-filter-btn {
+	background-color:var(--pink)!important;
+	color:#fff!important;
+	border-color:var(--pink)!important;
+}
+
+.filter-button-group .btn:hover{
+	color: #fff!important;
+}
+.collection-img span{
+	top:20px;
+	right:20px;
+	width:46px;
+	height: 46px;
+	border-radius:50%;
+}
+
+/*  especiales */
+/* BOTON DE WHASSAP*/
+
+.btn-wsp {
+	position :fixed;
+	width : 42px;
+	height : 42px;
+	line-height : 55px;
+	bottom:20px;
+	right:5px;
+	font-size:30px;
+	background :#0df053;
+	color :#fff;
+	border-radius:50px;
+	text-align : center;
+        font-size:40px;
+	box-shadow:0px 1px 10px rgba(0,0,0,0.3);
+	z-index: 100;
+	}
+
+.special-img span {
+	top:20px;
+	right: 20px;
+}
+
+.special-list .btn{
+	padding: 8px 20px!important;
+}
+.special-img img {
+	transition:all 0.3s ease;
+}
+.special-img:hover img{
+	transform: scale(1.2);
+}
+
+#offers {
+
+background : url(../images/shoppingPcL.jpg) center  no-repeat;
+
+}
+
+#offers .row {
+	min-heigth:60vh;
+}
+
+.offers-content span{
+	font-size:28px;
+
+}
+		.offers-content h2 {
+		font-size: 60px;
+	font-family:var(--lg-font);
+}
+
+.offers-content .btn {
+		border-color : transparent!important;
+	}
+/* end about*/	
+
+	/* suscriptor*/
+	#suscriptor {
+		background-color: rgba(179,179,179,0.05);
+	}
+	#suscriptor p {
+			max-width: 600px;
+	}
+
+	#suscriptor .input-group{
+		max-width : 500px;
+	}
+	#suscriptor .form-control {
+			border-top-left-radius : 25px;
+			border-bottom-left-radius : 25px;
+
+	}
+
+	#suscriptor .btn{
+		background-color:var(--pink);
+		color :#fff;
+		border-color:var(--pink);
+	}
+	#suscriptor .btn-hover{
+		background-color:#000;
+		border-color:#000;
+	}
+/* end suscriptor*/
+
+	/* footer*/
+	footer .brand {
+		font-family: var (--lg-font);
+		letter-spacing: 2px;
+
+	}
+	footer a {
+		-webkit-transition: color 0.3s ease;
+		-o-transition: color 0.3s ease;
+		transition: color 0.3s ease;
+	}
+	footer a:hover {
+		color :var (--pink)!important;
+	}
+	
+	/* end footer*/
+/* media queries*/
+	@media(min-width: 992px){
+	
+		.nav-item {
+		border-bottom :none;	
+		}
+	}
